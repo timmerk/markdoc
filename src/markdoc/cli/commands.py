@@ -239,6 +239,8 @@ def sync_html(config, args):
     
     log.debug('rsync completed')
 
+    build_listing(config, args)
+
 
 ## Building
 
